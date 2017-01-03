@@ -1,0 +1,4 @@
+#Sun Dec 18 17:44:33 EET 2016
+base.0=C\:\\libGDX\\android\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\libGDX\\android\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex

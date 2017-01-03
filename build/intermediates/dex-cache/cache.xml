@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vortex\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-box2d\1.9.4\98a0d25c9f0637fecac6e4aacf7287aa635964f5\gdx-box2d-1.9.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="98a0d25c9f0637fecac6e4aacf7287aa635964f5">
+        <dex dex="C:\libGDX\android\build\intermediates\pre-dexed\release\gdx-box2d-1.9.4_a76a8d2c5960cd29438aac7b803633e7b093b9ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vortex\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.4\194b33382d6d58fad031521ba3331d926c476c9b\gdx-backend-android-1.9.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="194b33382d6d58fad031521ba3331d926c476c9b">
+        <dex dex="C:\libGDX\android\build\intermediates\pre-dexed\release\gdx-backend-android-1.9.4_b2a87ad46409e4dc07d19a2b37d05270802123d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\libGDX\core\build\libs\core-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="38665ae2e39007916ca060e46498006b8008b642">
+        <dex dex="C:\libGDX\android\build\intermediates\pre-dexed\release\core-1.0_8a072c885b198e2614430dd495fd3200c629a1b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vortex\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-bullet\1.9.4\971a174538f313b9f975b8a6bbdf3aad04bb564d\gdx-bullet-1.9.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="971a174538f313b9f975b8a6bbdf3aad04bb564d">
+        <dex dex="C:\libGDX\android\build\intermediates\pre-dexed\release\gdx-bullet-1.9.4_86a95591e1c6590494ec5bf1f3ba50dd59e05ef6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vortex\.gradle\caches\modules-2\files-2.1\com.badlogicgames.box2dlights\box2dlights\1.4\3d77ad5b4164fb32fc67e2446e35911bb0aaf0bd\box2dlights-1.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3d77ad5b4164fb32fc67e2446e35911bb0aaf0bd">
+        <dex dex="C:\libGDX\android\build\intermediates\pre-dexed\release\box2dlights-1.4_4d1374d4a78ae86b2ef39de4a2cc79f8606ec874.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vortex\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-controllers-android\1.9.4\dd3d37ac9f03084edc1b1d9aa7c7b3e08b6744a3\gdx-controllers-android-1.9.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dd3d37ac9f03084edc1b1d9aa7c7b3e08b6744a3">
+        <dex dex="C:\libGDX\android\build\intermediates\pre-dexed\release\gdx-controllers-android-1.9.4_1859bd4d559a2c2d2a1c656609e5b602d4edced0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vortex\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-controllers\1.9.4\d182ca36785df4226ef63009a3d96462952665c3\gdx-controllers-1.9.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d182ca36785df4226ef63009a3d96462952665c3">
+        <dex dex="C:\libGDX\android\build\intermediates\pre-dexed\release\gdx-controllers-1.9.4_8cdc773d4e4fb791433a45ca1f0cc4d5bfb11400.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vortex\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-freetype\1.9.4\8816dd669b8ca09e7d5e9575807e92c4318f708\gdx-freetype-1.9.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="08816dd669b8ca09e7d5e9575807e92c4318f708">
+        <dex dex="C:\libGDX\android\build\intermediates\pre-dexed\release\gdx-freetype-1.9.4_90e92df136399852f678fff539bf34100648f926.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vortex\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-ai\1.8.0\ec30677d8ab1a8b8aa4b853c5f4e4b1361f50bf5\gdx-ai-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ec30677d8ab1a8b8aa4b853c5f4e4b1361f50bf5">
+        <dex dex="C:\libGDX\android\build\intermediates\pre-dexed\release\gdx-ai-1.8.0_a1d54b0251b6333f9cca05dcab299a2f24b67bbb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vortex\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.4\4b4b7962d1bc75af0438f5c81ec1010557bc9ee5\gdx-1.9.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4b4b7962d1bc75af0438f5c81ec1010557bc9ee5">
+        <dex dex="C:\libGDX\android\build\intermediates\pre-dexed\release\gdx-1.9.4_8e3c53af2b285df4b85cedcc488254a8e4fbbcc7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vortex\.gradle\caches\modules-2\files-2.1\com.badlogicgames.ashley\ashley\1.7.0\a7c4083c0a42027a3c03ba7ccecef6cbe1c5f0a4\ashley-1.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a7c4083c0a42027a3c03ba7ccecef6cbe1c5f0a4">
+        <dex dex="C:\libGDX\android\build\intermediates\pre-dexed\release\ashley-1.7.0_e031025fefb0a5ff61cc32bb1bfe8210e35f21b3.jar" />
+    </item>
+
+</items>
