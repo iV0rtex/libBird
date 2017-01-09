@@ -13,10 +13,12 @@ public class Bird {
     private int height;
     private Circle boundingCircle;
     private boolean isAlive;
+    private float originalY;
 
     public Bird(float x, float y, int width, int height) {
         this.width = width;
         this.height = height;
+        this.originalY = y;
         this.position = new Vector2(x, y);
         this.velocity = new Vector2(0.0F, 0.0F);
         this.acceleration = new Vector2(0.0F, 460.0F);
@@ -50,6 +52,9 @@ public class Bird {
             }
         }
 
+    }
+    public void updateReady(float runTime){
+        position.y = 2*(float)Math.sin(7*runTime)+originalY;
     }
 
     public void onClick() {

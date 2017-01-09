@@ -9,7 +9,7 @@ import com.kilobolt.zbHelpers.InputHandler;
 public class GameScreen implements Screen {
     private GameWorld world;
     private GameRenderer renderer;
-    private float runTime = 0.0F;
+    private float runTime;
 
     public GameScreen() {
         float screenWidth = (float)Gdx.graphics.getWidth();
@@ -17,9 +17,11 @@ public class GameScreen implements Screen {
         float gameWidth = 136.0F;
         float gameHeight = screenHeight / (screenWidth / gameWidth);
         int midPointY = (int)(gameHeight / 2.0F);
+
         this.world = new GameWorld(midPointY);
+
+        Gdx.input.setInputProcessor(new InputHandler(world, screenWidth/gameWidth, screenHeight/gameHeight));
         this.renderer = new GameRenderer(this.world, (int)gameHeight, midPointY);
-        Gdx.input.setInputProcessor(new InputHandler(world));
     }
 
     public void show() {
@@ -29,7 +31,7 @@ public class GameScreen implements Screen {
     public void render(float delta) {
         this.runTime += delta;
         this.world.update(delta);
-        this.renderer.render(this.runTime);
+        this.renderer.render(delta,this.runTime);
     }
 
     public void resize(int width, int height) {

@@ -15,11 +15,25 @@ public class ScrollHandler {
 
     public ScrollHandler(GameWorld gameWorld, float yPos) {
         this.gameWorld = gameWorld;
-        this.frontGrass = new Grass(0.0F, yPos, 143, 11, -59.0F);
-        this.backGrass = new Grass(this.frontGrass.getTailX(), yPos, 143, 11, -59.0F);
+        this.frontGrass = new Grass(0.0F, yPos, 143, 11, SCROLL_SPEED);
+        this.backGrass = new Grass(this.frontGrass.getTailX(), yPos, 143, 11, SCROLL_SPEED);
         this.pipe1 = new Pipe(210.0F, 0.0F, 22, 60, -59.0F, yPos);
-        this.pipe2 = new Pipe(this.pipe1.getTailX() + 49.0F, 0.0F, 22, 70, -59.0F, yPos);
-        this.pipe3 = new Pipe(this.pipe2.getTailX() + 49.0F, 0.0F, 22, 60, -59.0F, yPos);
+        this.pipe2 = new Pipe(this.pipe1.getTailX() + 49.0F, 0.0F, 22, 70, SCROLL_SPEED, yPos);
+        this.pipe3 = new Pipe(this.pipe2.getTailX() + 49.0F, 0.0F, 22, 60, SCROLL_SPEED, yPos);
+    }
+    public void updateReady(float delta) {
+
+        frontGrass.update(delta);
+        backGrass.update(delta);
+
+        if (frontGrass.isScrolledLeft()) {
+            frontGrass.reset(backGrass.getTailX());
+
+        } else if (backGrass.isScrolledLeft()) {
+            backGrass.reset(frontGrass.getTailX());
+
+        }
+
     }
 
     public void update(float delta) {
@@ -29,11 +43,11 @@ public class ScrollHandler {
         this.pipe2.update(delta);
         this.pipe3.update(delta);
         if(this.pipe1.isScrolledLeft()) {
-            this.pipe1.reset(this.pipe3.getTailX() + 49.0F);
+            this.pipe1.reset(this.pipe3.getTailX() + PIPE_GAP);
         } else if(this.pipe2.isScrolledLeft()) {
-            this.pipe2.reset(this.pipe1.getTailX() + 49.0F);
+            this.pipe2.reset(this.pipe1.getTailX() + PIPE_GAP);
         } else if(this.pipe3.isScrolledLeft()) {
-            this.pipe3.reset(this.pipe2.getTailX() + 49.0F);
+            this.pipe3.reset(this.pipe2.getTailX() + PIPE_GAP);
         }
 
         if(this.frontGrass.isScrolledLeft()) {
